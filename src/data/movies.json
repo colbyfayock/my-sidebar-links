@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Barbie",
+    "image": "/images/movies-barbie.jpg"
+  },
+  {
+    "title": "Killers of the Flower Moon",
+    "image": "/images/movies-killers-of-the-flower-moon.jpg"
+  },
+  {
+    "title": "Oppenheimer",
+    "image": "/images/movies-oppenheimer.jpg"
+  },
+  {
+    "title": "Tetris",
+    "image": "/images/movies-tetris.jpg"
+  },
+  {
+    "title": "The Family Plan",
+    "image": "/images/movies-the-family-plan.jpg"
+  }
+]
