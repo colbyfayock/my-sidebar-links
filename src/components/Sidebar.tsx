@@ -36,7 +36,7 @@ export default function Sidebar({ links }: SidebarProps) {
                 { link.children.map(child => {
                   const isChildActive = pathname === child.path;
                   return (
-                    <li>
+                    <li key={`${child.label}-${child.path}`}>
                       <Link
                         className={cn(
                           'border-l-2 border-transparent block px-6 py-2',
