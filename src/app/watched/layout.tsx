@@ -1,6 +1,4 @@
-import Link from 'next/link';
-
-import { cn } from '@/lib/utils';
+import Sidebar from '@/components/Sidebar';
 
 import Container from '@/components/Container';
 
@@ -26,22 +24,7 @@ export default async function WatchedLayout({
 }) {
   return (
     <Container className="grid grid-cols-[12rem_1fr] mt-6">
-      <ul className="-mt-1">
-        {links.map(link => {
-          return (
-            <li key={`${link.label}-${link.path}`} className="mb-1">
-              <Link
-                className={cn(
-                  'block font-semibold px-6 py-2',
-                  // 'text-white bg-blue-500'
-                )} href={link.path}
-              >
-                { link.label }
-              </Link>
-            </li>
-          )
-        })}
-      </ul>
+      <Sidebar links={links} />
       <div>{ children }</div>
     </Container>
   )
