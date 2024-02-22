@@ -6,7 +6,7 @@ Demo for tutorial [How to Style Active Links with Current Path in Next.js App Ro
 
 📺 YouTube: https://www.youtube.com/colbyfayock
 
-🚀 Demo: https://my-sidebar-links.vercel.app
+🚀 Demo: https://my-sidebar-links.vercel.app/watched
 
 ## More tutorials and walkthroughs
 
