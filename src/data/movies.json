@@ -1,22 +1,27 @@
 [
   {
     "title": "Barbie",
-    "image": "/images/movies-barbie.jpg"
+    "image": "/images/movies-barbie.jpg",
+    "category": "comedy"
   },
   {
     "title": "Killers of the Flower Moon",
-    "image": "/images/movies-killers-of-the-flower-moon.jpg"
+    "image": "/images/movies-killers-of-the-flower-moon.jpg",
+    "category": "drama"
   },
   {
     "title": "Oppenheimer",
-    "image": "/images/movies-oppenheimer.jpg"
+    "image": "/images/movies-oppenheimer.jpg",
+    "category": "drama"
   },
   {
     "title": "Tetris",
-    "image": "/images/movies-tetris.jpg"
+    "image": "/images/movies-tetris.jpg",
+    "category": "drama"
   },
   {
     "title": "The Family Plan",
-    "image": "/images/movies-the-family-plan.jpg"
+    "image": "/images/movies-the-family-plan.jpg",
+    "category": "comedy"
   }
 ]

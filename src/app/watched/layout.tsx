@@ -10,6 +10,16 @@ const links = [
   {
     label: 'Movies',
     path: '/watched/movies',
+    children: [
+      {
+        label: 'Comedy',
+        path: '/watched/movies/comedy'
+      },
+      {
+        label: 'Drama',
+        path: '/watched/movies/drama'
+      },
+    ]
   },
   {
     label: 'TV Shows',
